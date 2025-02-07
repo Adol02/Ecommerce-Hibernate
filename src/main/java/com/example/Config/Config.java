@@ -23,8 +23,8 @@ public class Config {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/Amazon");
-        dataSource.setUsername("root");
-        dataSource.setPassword("root@123.");
+        dataSource.setUsername("***");
+        dataSource.setPassword("***");
         return dataSource;
     }
 
